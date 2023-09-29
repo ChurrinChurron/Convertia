@@ -20,48 +20,48 @@ btnMenuCerrar.addEventListener("click", () => {
 
 /*Función para activar los links al scrollear*/
 
-window.onscroll = () => {
+// window.onscroll = () => {
 
-    let topHeadFoot = window.scrollY;
-    let offsetFoot = footer.offsetTop;
-    let heightHead = header.offsetHeight;
-    let heightFoot = footer.offsetHeight;
-    let idHead = header.getAttribute("id");
-    let idFoot = footer.getAttribute("id"); 
+//     let topHeadFoot = window.scrollY;
+//     let offsetFoot = footer.offsetTop;
+//     let heightHead = header.offsetHeight;
+//     let heightFoot = footer.offsetHeight;
+//     let idHead = header.getAttribute("id");
+//     let idFoot = footer.getAttribute("id"); 
 
-    sections.forEach(sec => {
+//     sections.forEach(sec => {
 
-        let top = window.scrollY;
-        let offset = sec.offsetTop - 300;
-        let height = sec.offsetHeight;
-        let id = sec.getAttribute("id");
+//         let top = window.scrollY;
+//         let offset = sec.offsetTop - 300;
+//         let height = sec.offsetHeight;
+//         let id = sec.getAttribute("id");
 
-        if(top >= offset && top < offset + height) {
+//         if(top >= offset && top < offset + height) {
 
-            navLinks.forEach(links => {
+//             navLinks.forEach(links => {
 
-                links.classList.remove('active');
-                document.querySelector(".nav__linksDesktop a[href*=" + id +"]").classList.add('active');
-            })
+//                 links.classList.remove('active');
+//                 document.querySelector(".nav__linksDesktop a[href*=" + id +"]").classList.add('active');
+//             })
             
-        }
-    })
+//         }
+//     })
 
-    if(topHeadFoot <= 20 & topHeadFoot < 20 + heightHead) {
+//     if(topHeadFoot <= 20 & topHeadFoot < 20 + heightHead) {
 
-        navLinks.forEach(links => {
+//         navLinks.forEach(links => {
 
-            links.classList.remove('active');
-            document.querySelector(".nav__linksDesktop a[href*=" + idHead +"]").classList.add('active');
-        })
-    }
+//             links.classList.remove('active');
+//             document.querySelector(".nav__linksDesktop a[href*=" + idHead +"]").classList.add('active');
+//         })
+//     }
 
-    if(topHeadFoot >= 8300 & topHeadFoot < 8300 + heightFoot) {
+//     if(topHeadFoot >= 8300 & topHeadFoot < 8300 + heightFoot) {
 
-        navLinks.forEach(links => {
+//         navLinks.forEach(links => {
 
-            links.classList.remove('active');
-            document.querySelector(".nav__linksDesktop a[href*=" + idFoot +"]").classList.add('active');
-        })
-    }
-}
+//             links.classList.remove('active');
+//             document.querySelector(".nav__linksDesktop a[href*=" + idFoot +"]").classList.add('active');
+//         })
+//     }
+// }
