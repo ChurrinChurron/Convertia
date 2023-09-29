@@ -615,6 +615,7 @@ footer h2 {
     .header__conten {
     
         flex-direction: row;
+        gap: 5em;
         margin: 10em auto 0 auto;
         max-width: 54em;
         padding: 5em 2em 3em .3em;
