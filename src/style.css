@@ -629,7 +629,8 @@ footer h2 {
 
     .service {
 
-        height: 88vh;
+        height: 100vh;
+        padding: 12em 1.5em 2em 1.5em;
     }
 
     .service h2 {
