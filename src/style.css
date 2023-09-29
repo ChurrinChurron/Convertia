@@ -15,7 +15,7 @@ html {
 body {
 
     font-family: var(--manrope);
-    background: var(--black);
+    background: var(--black-blue);
 }
 
 :root {
@@ -60,7 +60,7 @@ nav {
     align-items: center;
     width: 100%;
     padding: 1em 2em .8em 2em;
-    background: var(--black);
+    background: var(--black-blue);
 }
 
 nav a img {
@@ -85,7 +85,7 @@ nav a img {
     width: 100%;
     height: 100vh;
     padding: 1.5em 2.5em;
-    background-color: var(--black);
+    background-color: var(--black-blue);
     transform: translateX(100%);
     transition: .4s;
 }
@@ -570,7 +570,7 @@ nav a img {
 footer {
 
     padding: 3em 1.5em;
-    background: var(--black);
+    background: var(--black-blue);
 }
 
 footer h2 {
@@ -605,7 +605,7 @@ footer h2 {
     filter: brightness(.7);
 }
 
-@media screen and (width >= 768px) {
+@media (width >= 768px) {
     
     header {
 
@@ -765,7 +765,7 @@ footer h2 {
     }
 }
 
-@media screen and (width >= 992px) {
+@media (width >= 992px) {
     
     .nav__linksDesktop {
 
@@ -834,7 +834,7 @@ footer h2 {
         
 }
 
-@media screen and (width >= 1200px) {
+@media (width >= 1200px) {
     
     header {
 
