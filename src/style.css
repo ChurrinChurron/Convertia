@@ -10,10 +10,12 @@
 html {
 
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
 
+    overflow-x: hidden;
     font-family: var(--manrope);
     background: var(--black-blue);
 }
@@ -102,8 +104,8 @@ nav a img {
     color: var(--white);
     display: block;
     text-transform: uppercase;
-    margin-bottom: 1.5em;
-    font-size: 1.7em;
+    margin-bottom: 1.2em;
+    font-size: 1.5em;
     letter-spacing: .220em;
 }
 
@@ -146,7 +148,7 @@ nav a img {
 .header__conten img {
 
     width: 100%;
-    max-width: 30em;
+    max-width: 20em;
     margin-bottom: 2em;
 }
 
@@ -174,11 +176,139 @@ nav a img {
 
 .header__conten .spanHead-dos {
 
+    position: relative;
+    bottom: .3em;
     font-family: var(--cairo);
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: var(--yellow);
+}
+
+#multiple1 .scroll-arrow-container {
+	height: 20px;
+	width: 20px;
+	position: relative;
+}
+
+#multiple1 span {
+	position: absolute;
+	height: 4px;
+	width: 30px;
+	background-color: #7f7f7f;
+}
+
+#multiple1 span.arrow-left {
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+	left: -17px;
+}
+
+#multiple1 span.arrow-right {
+	-webkit-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+	right: -17px;
+}
+
+#multiple1 .arrow1 {
+	-webkit-animation-name: multiple1_1;
+	animation-name: multiple1_1;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes multiple1_1 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 0;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+#multiple1 .arrow2 {
+	-webkit-animation-name: multiple1_2;
+	animation-name: multiple1_2;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes multiple1_2 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+#multiple1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+#multiple1 .arrow3 {
+	-webkit-animation-name: multiple1_3;
+	animation-name: multiple1_3;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes multiple1_3 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 
 /*--Service--*/
@@ -199,7 +329,7 @@ nav a img {
     font-family: var(--cairo);
     font-weight: 700;
     text-transform: uppercase;
-    line-height: 1.1em;
+    line-height: .920em;
     font-size: 2.6em;
     color: var(--yellow);
 }
@@ -609,14 +739,14 @@ footer h2 {
     
     header {
 
-        height: 60vh;
+        height: 80vh;
     }
 
     .header__conten {
     
         flex-direction: row;
         gap: 5em;
-        margin: 10em auto 0 auto;
+        margin: 4.5em auto 0 auto;
         max-width: 54em;
         padding: 5em 2em 3em .3em;
     }
@@ -684,7 +814,7 @@ footer h2 {
 
     .solutions__box {
 
-        margin-top: 7em;
+        margin-top: 5em;
         flex-direction: row;
         gap: 2em;
     }
@@ -714,7 +844,7 @@ footer h2 {
 
     .operates {
 
-        height: 80vh;
+        height: 100vh;
     }
 
     .operates p {
@@ -777,7 +907,6 @@ footer h2 {
     
     .nav__linksDesktop a {
 
-
         padding: .5em;
         font-weight: 600;
         text-transform: uppercase;
@@ -788,11 +917,6 @@ footer h2 {
         color: var(--white);
         transition: .3s;    
     }
-/* 
-    .nav__linksDesktop a:hover {
-
-        color: var(--yellow);
-    } */
 
     .nav__linksDesktop a:hover {
 
@@ -826,7 +950,12 @@ footer h2 {
     .leadership__content {
 
         flex-direction: row;
-        gap: 2.5em;
+        gap: 0;
+    }
+
+    .member__profile {
+
+        max-width: 20em;
     }
 
     .member__title h3 {
@@ -845,7 +974,7 @@ footer h2 {
 
     nav {
 
-        padding: 1em 8em .8em 8em;
+        padding: 1em 7em .8em 7em;
     }
 
     nav a img {
@@ -881,7 +1010,8 @@ footer h2 {
 
     .header__conten .spanHead-dos {
 
-        font-size: 3.3em;
+        font-size: 3em;
+        bottom: .4em;
     }
 
     /*--Service--*/
@@ -935,7 +1065,7 @@ footer h2 {
 
     .solutions__box {
         
-        margin-top: 20em;
+        margin-top: 10em;
     }
 
     .boxes__left, .box__right {
@@ -991,22 +1121,22 @@ footer h2 {
 
     .leadership h2 {
 
-        font-size: 3.8em;
+        font-size: 3.6em;
     }
 
     .member__title h3 {
 
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 
     .member__title h4 {
 
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .member__title a i {
 
-        font-size: 2.2em;
+        font-size: 2em;
     }
 
     /*--Why--*/
@@ -1040,21 +1170,21 @@ footer h2 {
 
     footer {
 
-        padding: 5em 10em;
+        padding: 5em 7em;
     }
 
     footer h2 {
 
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     .footer__links {
 
-        gap: 10em;
+        gap: 7em;
     }
 
     .footer__links a {
 
-        font-size: 2em;
+        font-size: 1.8em;
     }
 }
