@@ -322,7 +322,6 @@ nav a img {
 
 .service {
 
-    height: 100vh;
     display: grid;
     place-content: center;
     padding: 3em 1.5em 2em 1.5em;
@@ -774,7 +773,6 @@ footer h2 {
 
     .service {
 
-        height: 100vh;
         padding: 12em 1.5em 10em 1.5em;
     }
 
@@ -1031,10 +1029,6 @@ footer h2 {
 
     /*--Service--*/
 
-    .service {
-
-        height: 110vh;
-    }
 
     .service h2 {
 
