@@ -761,7 +761,7 @@ footer h2 {
         flex-direction: row;
         gap: 5em;
         margin: 2em auto 0 auto;
-        max-width: 54em;
+        max-width: 56em;
         padding: 5em 2em 3em .3em;
     }
     
@@ -774,7 +774,7 @@ footer h2 {
 
     .service {
 
-        padding: 10em 1.5em 10em 1.5em;
+        padding: 8em 1.5em 10em 1.5em;
     }
 
     .service h2 {
@@ -1004,30 +1004,33 @@ footer h2 {
     
     .header__conten {
     
-        max-width: 60em;
+        max-width: 71em;
     }
     
     .header__conten img {
     
-        max-width: 34em;
+        max-width: 36em;
         position: relative;
-        top: 2em;
+        top: 2.5em;
     }
 
     .header__conten h1 {
 
         font-size: 4em;
+        letter-spacing: .1em;
     }
 
     .header__conten h2 {
 
         font-size: 1.4em;
+        max-width: 18em;
     }
 
     .header__conten .spanHead-dos {
 
         font-size: 3em;
         bottom: -.3em;
+        letter-spacing: .1em;
     }
 
     /*--Service--*/
@@ -1035,12 +1038,12 @@ footer h2 {
 
     .service h2 {
 
-        font-size: 4.4em;
+        font-size: 4.2em;
     }
 
     .service p {
 
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     /*Solutions*/
