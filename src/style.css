@@ -774,7 +774,7 @@ footer h2 {
 
     .service {
 
-        padding: 12em 1.5em 10em 1.5em;
+        padding: 10em 1.5em 10em 1.5em;
     }
 
     .service h2 {
@@ -791,7 +791,7 @@ footer h2 {
 
     .solutions {
 
-        padding: 6em 1.5em;
+        padding: 3em 1.5em 6em 1.5em;
     }
 
     .solutions__text p {
@@ -1010,6 +1010,8 @@ footer h2 {
     .header__conten img {
     
         max-width: 34em;
+        position: relative;
+        top: 2em;
     }
 
     .header__conten h1 {
