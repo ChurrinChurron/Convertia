@@ -138,7 +138,7 @@ nav a img {
     background: transparent;
     color: var(--white);
     border: none;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .header__conten {
@@ -760,14 +760,14 @@ footer h2 {
     
         flex-direction: row;
         gap: 5em;
-        margin: 2em auto 0 auto;
+        margin: 1.6em auto 0 auto;
         max-width: 56em;
         padding: 5em 2em 3em .3em;
     }
     
     .header__conten img {
     
-        max-width: 28em;
+        max-width: 27em;
     }
 
     /*--Service--*/
@@ -1016,19 +1016,19 @@ footer h2 {
 
     .header__conten h1 {
 
-        font-size: 4em;
+        font-size: 3.9em;
         letter-spacing: .1em;
     }
 
     .header__conten h2 {
 
-        font-size: 1.4em;
+        font-size: 1.3em;
         max-width: 18em;
     }
 
     .header__conten .spanHead-dos {
 
-        font-size: 3em;
+        font-size: 2.9em;
         bottom: -.3em;
         letter-spacing: .1em;
     }
