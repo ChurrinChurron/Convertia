@@ -172,6 +172,7 @@ nav a img {
 
     font-weight: 400;
     font-size: 1.2em;
+    line-height: 1.5em;
 }
 .header__conten .spanHead-uno {
 
@@ -183,7 +184,7 @@ nav a img {
 .header__conten .spanHead-dos {
 
     position: relative;
-    bottom: .3em;
+    bottom: -.2em;
     display: block;
     font-family: var(--cairo);
     font-weight: 700;
@@ -324,7 +325,7 @@ nav a img {
 
     display: grid;
     place-content: center;
-    padding: 3em 1.5em 2em 1.5em;
+    padding: 6em 1.5em;
     margin-top: 10em;
     background: #00192d;
     background: linear-gradient(180deg, #00192d, #9f968d);
@@ -1008,7 +1009,7 @@ footer h2 {
     
     .header__conten img {
     
-        max-width: 40em;
+        max-width: 34em;
     }
 
     .header__conten h1 {
@@ -1024,7 +1025,7 @@ footer h2 {
     .header__conten .spanHead-dos {
 
         font-size: 3em;
-        bottom: .4em;
+        bottom: -.3em;
     }
 
     /*--Service--*/
